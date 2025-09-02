@@ -6,7 +6,7 @@ public class ParameterisedWay {
 
         Scanner scanner = new Scanner(System.in);
 
-        //Print sum of first n natural nos. using Parameterized way.
+        //Print sum of first n natural nos. using Parameterized way(Recursive Function).
 
         int n;
         System.out.print("Enter number (n) : ");
@@ -24,3 +24,4 @@ public class ParameterisedWay {
         printSum(i-1,sum+i);
     }
 }
+
