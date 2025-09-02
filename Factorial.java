@@ -3,6 +3,8 @@ public class Factorial {
 
     public static void main(String[] args){
 
+        //Returns the factorial of a number (using recursion).
+
         Scanner scanner = new Scanner(System.in);
 
         int n;
@@ -22,3 +24,4 @@ public class Factorial {
         return n*fact(n-1);
     }
 }
+
