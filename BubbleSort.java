@@ -48,7 +48,9 @@ public class BubbleSort {
         for(int j=0;j<size;j++){
             System.out.print(arr[j] + " ");
         }
+        scanner.close();
 
 
     }
 }
+
