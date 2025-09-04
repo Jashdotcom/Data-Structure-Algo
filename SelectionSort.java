@@ -4,6 +4,7 @@ public class SelectionSort {
 
     public static void main(String[] args){
 
+        //SORTING THE ARRAY USING SELECTION SORT.
         //SELECTS THE MINIMUM/SMALLEST ELEMENT FROM THE ARRAY AND SWAPS IT WITH THE FIRST UNSORTED ARRAY ELEMENT.
 
         Scanner scanner = new Scanner(System.in);
@@ -49,4 +50,5 @@ public class SelectionSort {
 
     }
 }
+
 
