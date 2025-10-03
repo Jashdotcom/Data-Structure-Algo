@@ -18,8 +18,7 @@ public class LargestElement {
 
         int[] arr = new int[size];
 
-        System.out.println();
-        System.out.println("Enter the array elements : ");
+        System.out.println("\nEnter the array elements : ");
         for(int i=0;i<arr.length;i++){
             System.out.printf("Element %d : ",i);
             arr[i]=sc.nextInt();
@@ -34,13 +33,13 @@ public class LargestElement {
             }
         }
 
-        System.out.print("Array is : ");
+        System.out.print("\nArray is : ");
         for(int i=0;i<arr.length;i++){
             System.out.print(arr[i] + " ");
         }
 
-        System.out.println();
-        System.out.printf("Largest element : %d",largest);
+        System.out.printf("\nLargest element : %d",largest);
 
     }
 }
+
