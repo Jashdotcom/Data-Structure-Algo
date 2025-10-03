@@ -16,9 +16,8 @@ public class SecondLargest {
         sc.nextLine();
 
         int[] arr = new int[size];
-
-        System.out.println();
-        System.out.println("Enter the array elements : ");
+        
+        System.out.println("\nEnter the array elements : ");
         for(int i=0;i<arr.length;i++){
             System.out.printf("Element %d : ",i);
             arr[i]=sc.nextInt();
@@ -38,13 +37,12 @@ public class SecondLargest {
                 secLargest=arr[i];
             }
         }
-        System.out.println();
-        System.out.print("Array is : ");
+    
+        System.out.print("\nArray is : ");
         for(i=0;i<arr.length;i++){
             System.out.print(arr[i] + " ");
         }
-        System.out.println();
-        System.out.print("Second Largest : " + secLargest);
+        System.out.print("\nSecond Largest : " + secLargest);
 
 
 
@@ -52,3 +50,4 @@ public class SecondLargest {
 
     }
 }
+
