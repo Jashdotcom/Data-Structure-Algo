@@ -24,7 +24,7 @@ public class RightRotationBFM {
         System.out.print("\nEnter number of place/s by which the array should be rotated : ");
         int num = sc.nextInt();
 
-        System.out.println("\nArray before rotation : ");
+        System.out.print("\nArray before rotation : ");
         for(int i : arr){
             System.out.print(i + " ");
         }
@@ -41,9 +41,10 @@ public class RightRotationBFM {
         }
 
 
-        System.out.println("\nArray after rotation : ");
+        System.out.print("\nArray after rotation : ");
         for(int j : arr){
             System.out.print(j + " ");
         }
     }
 }
+
